@@ -1,5 +1,6 @@
 <?php
-includ '../app/libraries/Rota.php'
+include '../app/libraries/Rota.php';
+include '../app/Libraries/Controllers.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,7 +11,7 @@ includ '../app/libraries/Rota.php'
 </head>
 <body>
    <?php
-   $rotas = new ROTA();
+   $rotas = new rota();
    ?>
 </body>
 </html>
